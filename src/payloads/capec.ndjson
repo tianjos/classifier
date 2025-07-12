@@ -1,0 +1,559 @@
+{"id":1,"title":"Accessing Functionality Not Properly Constrained by ACLs","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":2,"title":"Inducing Account Lockout","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":3,"title":"Using Leading 'Ghost' Character Sequences to Bypass Input Filters","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":4,"title":"Using Alternative IP Address Encodings","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":5,"title":"Blue Boxing","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":6,"title":"Argument Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":7,"title":"Blind SQL Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":8,"title":"Buffer Overflow in an API Call","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":9,"title":"Buffer Overflow in Local Command-Line Utilities","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":10,"title":"Buffer Overflow via Environment Variables","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":11,"title":"Cause Web Server Misclassification","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":12,"title":"Choosing Message Identifier","domainsOfAttack":"Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":13,"title":"Subverting Environment Variable Values","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":14,"title":"Client-side Injection-induced Buffer Overflow","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":15,"title":"Command Delimiters","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":16,"title":"Dictionary-based Password Attack","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":17,"title":"Using Malicious Files","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":18,"title":"XSS Targeting Non-Script Elements","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":19,"title":"Embedding Scripts within Scripts","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":20,"title":"Encryption Brute Forcing","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":21,"title":"Exploitation of Trusted Identifiers","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":22,"title":"Exploiting Trust in Client","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":23,"title":"File Content Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":24,"title":"Filter Failure through Buffer Overflow","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":25,"title":"Forced Deadlock","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":26,"title":"Leveraging Race Conditions","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":27,"title":"Leveraging Race Conditions via Symbolic Links","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":28,"title":"Fuzzing","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":29,"title":"Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":30,"title":"Hijacking a Privileged Thread of Execution","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":31,"title":"Accessing/Intercepting/Modifying HTTP Cookies","domainsOfAttack":"Communications","mechanismsOfAttack":"Collect and Analyze Information, Subvert Access Control"}
+{"id":32,"title":"XSS Through HTTP Query Strings","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":33,"title":"HTTP Request Smuggling","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":34,"title":"HTTP Response Splitting","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":35,"title":"Leverage Executable Code in Non-Executable Files","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":36,"title":"Using Unpublished Interfaces or Functionality","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":37,"title":"Retrieve Embedded Sensitive Data","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":38,"title":"Leveraging/Manipulating Configuration File Search Paths","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":39,"title":"Manipulating Opaque Client-based Data Tokens","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":40,"title":"Manipulating Writeable Terminal Devices","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":41,"title":"Using Meta-characters in E-mail Headers to Inject Malicious Payloads","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":42,"title":"MIME Conversion","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":43,"title":"Exploiting Multiple Input Interpretation Layers","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":44,"title":"Overflow Binary Resource File","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures, Inject Unexpected Items"}
+{"id":45,"title":"Buffer Overflow via Symbolic Links","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":46,"title":"Overflow Variables and Tags","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":47,"title":"Buffer Overflow via Parameter Expansion","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":48,"title":"Passing Local Filenames to Functions That Expect a URL","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":49,"title":"Password Brute Forcing","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":50,"title":"Password Recovery Exploitation","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":51,"title":"Poison Web Service Registry","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":52,"title":"Embedding NULL Bytes","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":53,"title":"Postfix, Null Terminate, and Backslash","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":54,"title":"Query System for Information","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":55,"title":"Rainbow Table Password Cracking","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":57,"title":"Utilizing REST's Trust in the System Resource to Obtain Sensitive Data","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":58,"title":"Restful Privilege Elevation","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":59,"title":"Session Credential Falsification through Prediction","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":60,"title":"Reusing Session IDs (aka Session Replay)","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":61,"title":"Session Fixation","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":62,"title":"Cross Site Request Forgery","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":63,"title":"Cross-Site Scripting (XSS)","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":64,"title":"Using Slashes and URL Encoding Combined to Bypass Validation Logic","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":65,"title":"Sniff Application Code","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":66,"title":"SQL Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":67,"title":"String Format Overflow in syslog()","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures, Inject Unexpected Items"}
+{"id":68,"title":"Subvert Code-signing Facilities","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":69,"title":"Target Programs with Elevated Privileges","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":70,"title":"Try Common or Default Usernames and Passwords","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":71,"title":"Using Unicode Encoding to Bypass Validation Logic","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":72,"title":"URL Encoding","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":73,"title":"User-Controlled Filename","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":74,"title":"Manipulating State","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":75,"title":"Manipulating Writeable Configuration Files","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":76,"title":"Manipulating Web Input to File System Calls","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":77,"title":"Manipulating User-Controlled Variables","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":78,"title":"Using Escaped Slashes in Alternate Encoding","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":79,"title":"Using Slashes in Alternate Encoding","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":80,"title":"Using UTF-8 Encoding to Bypass Validation Logic","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":81,"title":"Web Server Logs Tampering","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":83,"title":"XPath Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":84,"title":"XQuery Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":85,"title":"AJAX Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":86,"title":"XSS Through HTTP Headers","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":87,"title":"Forceful Browsing","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":88,"title":"OS Command Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":89,"title":"Pharming","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":90,"title":"Reflection Attack in Authentication Protocol","domainsOfAttack":"Communications","mechanismsOfAttack":"Abuse Existing Functionality, Subvert Access Control"}
+{"id":92,"title":"Forced Integer Overflow","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":93,"title":"Log Injection-Tampering-Forging","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":94,"title":"Adversary in the Middle (AiTM)","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":95,"title":"WSDL Scanning","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":96,"title":"Block Access to Libraries","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":97,"title":"Cryptanalysis","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":98,"title":"Phishing","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":100,"title":"Overflow Buffers","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":101,"title":"Server Side Include (SSI) Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":102,"title":"Session Sidejacking","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":103,"title":"Clickjacking","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":104,"title":"Cross Zone Scripting","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":105,"title":"HTTP Request Splitting","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":107,"title":"Cross Site Tracing","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":108,"title":"Command Line Execution through SQL Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":109,"title":"Object Relational Mapping Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":110,"title":"SQL Injection through SOAP Parameter Tampering","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":111,"title":"JSON Hijacking (aka JavaScript Hijacking)","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":112,"title":"Brute Force","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":113,"title":"Interface Manipulation","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":114,"title":"Authentication Abuse","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":115,"title":"Authentication Bypass","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":116,"title":"Excavation","domainsOfAttack":"Software, Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":117,"title":"Interception","domainsOfAttack":"Software, Communications, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":120,"title":"Double Encoding","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":121,"title":"Exploit Non-Production Interfaces","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":122,"title":"Privilege Abuse","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":123,"title":"Buffer Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":124,"title":"Shared Resource Manipulation","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":125,"title":"Flooding","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":126,"title":"Path Traversal","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":127,"title":"Directory Indexing","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":128,"title":"Integer Attacks","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":129,"title":"Pointer Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":130,"title":"Excessive Allocation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":131,"title":"Resource Leak Exposure","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":132,"title":"Symlink Attack","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":133,"title":"Try All Common Switches","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":134,"title":"Email Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":135,"title":"Format String Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":136,"title":"LDAP Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":137,"title":"Parameter Injection","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":138,"title":"Reflection Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":139,"title":"Relative Path Traversal","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":140,"title":"Bypassing of Intermediate Forms in Multiple-Form Sets","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Timing and State"}
+{"id":141,"title":"Cache Poisoning","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":142,"title":"DNS Cache Poisoning","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":143,"title":"Detect Unpublicized Web Pages","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":144,"title":"Detect Unpublicized Web Services","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":145,"title":"Checksum Spoofing","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":146,"title":"XML Schema Poisoning","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":147,"title":"XML Ping of the Death","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":148,"title":"Content Spoofing","domainsOfAttack":"Software, Hardware, Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":149,"title":"Explore for Predictable Temporary File Names","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":150,"title":"Collect Data from Common Resource Locations","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":151,"title":"Identity Spoofing","domainsOfAttack":"Software, Hardware, Communications, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":153,"title":"Input Data Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":154,"title":"Resource Location Spoofing","domainsOfAttack":"Software, Hardware, Communications, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":155,"title":"Screen Temporary Files for Sensitive Information","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":157,"title":"Sniffing Attacks","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":158,"title":"Sniffing Network Traffic","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":159,"title":"Redirect Access to Libraries","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":160,"title":"Exploit Script-Based APIs","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":161,"title":"Infrastructure Manipulation","domainsOfAttack":"Software, Hardware, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":162,"title":"Manipulating Hidden Fields","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":163,"title":"Spear Phishing","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":164,"title":"Mobile Phishing","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":165,"title":"File Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":166,"title":"Force the System to Reset Values","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":167,"title":"White Box Reverse Engineering","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":168,"title":"Windows ::DATA Alternate Data Stream","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":169,"title":"Footprinting","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":170,"title":"Web Application Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":173,"title":"Action Spoofing","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":174,"title":"Flash Parameter Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":175,"title":"Code Inclusion","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":176,"title":"Configuration/Environment Manipulation","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":177,"title":"Create files with the same name as files protected with a higher classification","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":178,"title":"Cross-Site Flashing","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":179,"title":"Calling Micro-Services Directly","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":180,"title":"Exploiting Incorrectly Configured Access Control Security Levels","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":181,"title":"Flash File Overlay","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":182,"title":"Flash Injection","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":183,"title":"IMAP/SMTP Command Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":184,"title":"Software Integrity Attack","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":185,"title":"Malicious Software Download","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":186,"title":"Malicious Software Update","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":187,"title":"Malicious Automated Software Update via Redirection","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":188,"title":"Reverse Engineering","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":189,"title":"Black Box Reverse Engineering","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":190,"title":"Reverse Engineer an Executable to Expose Assumed Hidden Functionality","domainsOfAttack":"Software, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":191,"title":"Read Sensitive Constants Within an Executable","domainsOfAttack":"Software, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":192,"title":"Protocol Analysis","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":193,"title":"PHP Remote File Inclusion","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":194,"title":"Fake the Source of Data","domainsOfAttack":"Software, Hardware, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":195,"title":"Principal Spoof","domainsOfAttack":"Communications, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":196,"title":"Session Credential Falsification through Forging","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":197,"title":"Exponential Data Expansion","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":198,"title":"XSS Targeting Error Pages","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":199,"title":"XSS Using Alternate Syntax","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":200,"title":"Removal of filters: Input filters, output filters, data masking","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":201,"title":"Serialized Data External Linking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality, Subvert Access Control"}
+{"id":202,"title":"Create Malicious Client","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":203,"title":"Manipulate Registry Information","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":204,"title":"Lifting Sensitive Data Embedded in Cache","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":206,"title":"Signing Malicious Code","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":207,"title":"Removing Important Client Functionality","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":208,"title":"Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":209,"title":"XSS Using MIME Type Mismatch","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":212,"title":"Functionality Misuse","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":215,"title":"Fuzzing for application mapping","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques, Collect and Analyze Information"}
+{"id":216,"title":"Communication Channel Manipulation","domainsOfAttack":"Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":217,"title":"Exploiting Incorrectly Configured SSL/TLS","domainsOfAttack":"Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":218,"title":"Spoofing of UDDI/ebXML Messages","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":219,"title":"XML Routing Detour Attacks","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":220,"title":"Client-Server Protocol Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":221,"title":"Data Serialization External Entities Blowup","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":222,"title":"iFrame Overlay","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":224,"title":"Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":226,"title":"Session Credential Falsification through Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":227,"title":"Sustained Client Engagement","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":228,"title":"DTD Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":229,"title":"Serialized Data Parameter Blowup","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":230,"title":"Serialized Data with Nested Payloads","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":231,"title":"Oversized Serialized Data Payloads","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":233,"title":"Privilege Escalation","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":234,"title":"Hijacking a privileged process","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":237,"title":"Escaping a Sandbox by Calling Code in Another Language","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":240,"title":"Resource Injection","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":242,"title":"Code Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":243,"title":"XSS Targeting HTML Attributes","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":244,"title":"XSS Targeting URI Placeholders","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":245,"title":"XSS Using Doubled Characters","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":247,"title":"XSS Using Invalid Characters","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":248,"title":"Command Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":250,"title":"XML Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":251,"title":"Local Code Inclusion","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":252,"title":"PHP Local File Inclusion","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":253,"title":"Remote Code Inclusion","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":256,"title":"SOAP Array Overflow","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":261,"title":"Fuzzing for garnering other adjacent user/sensitive data","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":263,"title":"Force Use of Corrupted Files","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":267,"title":"Leverage Alternate Encoding","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":268,"title":"Audit Log Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":270,"title":"Modification of Registry Run Keys","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":271,"title":"Schema Poisoning","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":272,"title":"Protocol Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":273,"title":"HTTP Response Smuggling","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":274,"title":"HTTP Verb Tampering","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":275,"title":"DNS Rebinding","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":276,"title":"Inter-component Protocol Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":277,"title":"Data Interchange Protocol Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":278,"title":"Web Services Protocol Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":279,"title":"SOAP Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":285,"title":"ICMP Echo Request Ping","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":287,"title":"TCP SYN Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":290,"title":"Enumerate Mail Exchange (MX) Records","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":291,"title":"DNS Zone Transfers","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":292,"title":"Host Discovery","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":293,"title":"Traceroute Route Enumeration","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":294,"title":"ICMP Address Mask Request","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":295,"title":"Timestamp Request","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":296,"title":"ICMP Information Request","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":297,"title":"TCP ACK Ping","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":298,"title":"UDP Ping","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":299,"title":"TCP SYN Ping","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":300,"title":"Port Scanning","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":301,"title":"TCP Connect Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":302,"title":"TCP FIN Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":303,"title":"TCP Xmas Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":304,"title":"TCP Null Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":305,"title":"TCP ACK Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":306,"title":"TCP Window Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":307,"title":"TCP RPC Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":308,"title":"UDP Scan","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":309,"title":"Network Topology Mapping","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":310,"title":"Scanning for Vulnerable Software","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":312,"title":"Active OS Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":313,"title":"Passive OS Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":317,"title":"IP ID Sequencing Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":318,"title":"IP 'ID' Echoed Byte-Order Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":319,"title":"IP (DF) 'Don't Fragment Bit' Echoing Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":320,"title":"TCP Timestamp Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":321,"title":"TCP Sequence Number Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":322,"title":"TCP (ISN) Greatest Common Divisor Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":323,"title":"TCP (ISN) Counter Rate Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":324,"title":"TCP (ISN) Sequence Predictability Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":325,"title":"TCP Congestion Control Flag (ECN) Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":326,"title":"TCP Initial Window Size Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":327,"title":"TCP Options Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":328,"title":"TCP 'RST' Flag Checksum Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":329,"title":"ICMP Error Message Quoting Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":330,"title":"ICMP Error Message Echoing Integrity Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":331,"title":"ICMP IP Total Length Field Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":332,"title":"ICMP IP 'ID' Field Error Message Probe","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":383,"title":"Harvesting Information via API Event Monitoring","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":384,"title":"Application API Message Manipulation via Man-in-the-Middle","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":385,"title":"Transaction or Event Tampering via Application API Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":386,"title":"Application API Navigation Remapping","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":387,"title":"Navigation Remapping To Propagate Malicious Content","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":388,"title":"Application API Button Hijacking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":389,"title":"Content Spoofing Via Application API Manipulation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":390,"title":"Bypassing Physical Security","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":391,"title":"Bypassing Physical Locks","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":392,"title":"Lock Bumping","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":393,"title":"Lock Picking","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":394,"title":"Using a Snap Gun Lock to Force a Lock","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":395,"title":"Bypassing Electronic Locks and Access Controls","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":397,"title":"Cloning Magnetic Strip Cards","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":398,"title":"Magnetic Strip Card Brute Force Attacks","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":399,"title":"Cloning RFID Cards or Chips","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":400,"title":"RFID Chip Deactivation or Destruction","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":401,"title":"Physically Hacking Hardware","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":402,"title":"Bypassing ATA Password Security","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":406,"title":"Dumpster Diving","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":407,"title":"Pretexting","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":410,"title":"Information Elicitation","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":412,"title":"Pretexting via Customer Service","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":413,"title":"Pretexting via Tech Support","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":414,"title":"Pretexting via Delivery Person","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":415,"title":"Pretexting via Phone","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":416,"title":"Manipulate Human Behavior","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":417,"title":"Influence Perception","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":418,"title":"Influence Perception of Reciprocation","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":420,"title":"Influence Perception of Scarcity","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":421,"title":"Influence Perception of Authority","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":422,"title":"Influence Perception of Commitment and Consistency","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":423,"title":"Influence Perception of Liking","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":424,"title":"Influence Perception of Consensus or Social Proof","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":425,"title":"Target Influence via Framing","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":426,"title":"Influence via Incentives","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":427,"title":"Influence via Psychological Principles","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":428,"title":"Influence via Modes of Thinking","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":429,"title":"Target Influence via Eye Cues","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":433,"title":"Target Influence via The Human Buffer Overflow","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":434,"title":"Target Influence via Interview and Interrogation","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":435,"title":"Target Influence via Instant Rapport","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":438,"title":"Modification During Manufacture","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":439,"title":"Manipulation During Distribution","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Distribution"}
+{"id":440,"title":"Hardware Integrity Attack","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":441,"title":"Malicious Logic Insertion","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":442,"title":"Infected Software","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":443,"title":"Malicious Logic Inserted Into Product by Authorized Developer","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":444,"title":"Development Alteration","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":445,"title":"Malicious Logic Insertion into Product Software via Configuration Management Manipulation","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":446,"title":"Malicious Logic Insertion into Product via Inclusion of Third-Party Component","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":447,"title":"Design Alteration","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":448,"title":"Embed Virus into DLL","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":452,"title":"Infected Hardware","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":456,"title":"Infected Memory","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":457,"title":"USB Memory Attacks","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":458,"title":"Flash Memory Attacks","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":459,"title":"Creating a Rogue Certification Authority Certificate","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":460,"title":"HTTP Parameter Pollution (HPP)","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":461,"title":"Web Services API Signature Forgery Leveraging Hash Function Extension Weakness","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":462,"title":"Cross-Domain Search Timing","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":463,"title":"Padding Oracle Crypto Attack","domainsOfAttack":"Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":464,"title":"Evercookie","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":465,"title":"Transparent Proxy Abuse","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":466,"title":"Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":467,"title":"Cross Site Identification","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":468,"title":"Generic Cross-Browser Cross-Domain Theft","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":469,"title":"HTTP DoS","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":470,"title":"Expanding Control over the Operating System from the Database","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":471,"title":"Search Order Hijacking","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":472,"title":"Browser Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":473,"title":"Signature Spoof","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":474,"title":"Signature Spoofing by Key Theft","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":475,"title":"Signature Spoofing by Improper Validation","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":476,"title":"Signature Spoofing by Misrepresentation","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":477,"title":"Signature Spoofing by Mixing Signed and Unsigned Content","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":478,"title":"Modification of Windows Service Configuration","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":479,"title":"Malicious Root Certificate","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":480,"title":"Escaping Virtualization","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":481,"title":"Contradictory Destinations in Traffic Routing Schemes","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":482,"title":"TCP Flood","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":485,"title":"Signature Spoofing by Key Recreation","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":486,"title":"UDP Flood","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":487,"title":"ICMP Flood","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":488,"title":"HTTP Flood","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":489,"title":"SSL Flood","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":490,"title":"Amplification","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":491,"title":"Quadratic Data Expansion","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":492,"title":"Regular Expression Exponential Blowup","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":493,"title":"SOAP Array Blowup","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":494,"title":"TCP Fragmentation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":495,"title":"UDP Fragmentation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":496,"title":"ICMP Fragmentation","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":497,"title":"File Discovery","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":498,"title":"Probe iOS Screenshots","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":499,"title":"Android Intent Intercept","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":500,"title":"WebView Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":501,"title":"Android Activity Hijack","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions, Collect and Analyze Information"}
+{"id":502,"title":"Intent Spoof","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":503,"title":"WebView Exposure","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":504,"title":"Task Impersonation","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":505,"title":"Scheme Squatting","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":506,"title":"Tapjacking","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":507,"title":"Physical Theft","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":508,"title":"Shoulder Surfing","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":509,"title":"Kerberoasting","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":510,"title":"SaaS User Request Forgery","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":511,"title":"Infiltration of Software Development Environment","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":516,"title":"Hardware Component Substitution During Baselining","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production"}
+{"id":517,"title":"Documentation Alteration to Circumvent Dial-down","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":518,"title":"Documentation Alteration to Produce Under-performing Systems","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":519,"title":"Documentation Alteration to Cause Errors in System Design","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":520,"title":"Counterfeit Hardware Component Inserted During Product Assembly","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production"}
+{"id":521,"title":"Hardware Design Specifications Are Altered","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":522,"title":"Malicious Hardware Component Replacement","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Distribution"}
+{"id":523,"title":"Malicious Software Implanted","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Distribution"}
+{"id":524,"title":"Rogue Integration Procedures","domainsOfAttack":"Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Distribution"}
+{"id":528,"title":"XML Flood","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":529,"title":"Malware-Directed Internal Reconnaissance","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":530,"title":"Provide Counterfeit Component","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":531,"title":"Hardware Component Substitution","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":532,"title":"Altered Installed BIOS","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":533,"title":"Malicious Manual Software Update","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":534,"title":"Malicious Hardware Update","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":535,"title":"Malicious Gray Market Hardware","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":536,"title":"Data Injected During Configuration","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Acquisition and Deployment, Sustainment"}
+{"id":537,"title":"Infiltration of Hardware Development Environment","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":538,"title":"Open-Source Library Manipulation","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":539,"title":"ASIC With Malicious Functionality","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":540,"title":"Overread Buffers","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":541,"title":"Application Fingerprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":542,"title":"Targeted Malware","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":543,"title":"Counterfeit Websites","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":544,"title":"Counterfeit Organizations","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":545,"title":"Pull Data from System Resources","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":546,"title":"Incomplete Data Deletion in a Multi-Tenant Environment","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":547,"title":"Physical Destruction of Device or Component","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":548,"title":"Contaminate Resource","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":549,"title":"Local Execution of Code","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":550,"title":"Install New Service","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":551,"title":"Modify Existing Service","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":552,"title":"Install Rootkit ","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":554,"title":"Functionality Bypass","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":555,"title":"Remote Services with Stolen Credentials","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":556,"title":"Replace File Extension Handlers","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":558,"title":"Replace Trusted Executable","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":559,"title":"Orbital Jamming","domainsOfAttack":"Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":560,"title":"Use of Known Domain Credentials","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":561,"title":"Windows Admin Shares with Stolen Credentials","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":562,"title":"Modify Shared File","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":563,"title":"Add Malicious File to Shared Webroot","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":564,"title":"Run Software at Logon","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":565,"title":"Password Spraying","domainsOfAttack":"Software","mechanismsOfAttack":"Employ Probabilistic Techniques"}
+{"id":568,"title":"Capture Credentials via Keylogger","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":569,"title":"Collect Data as Provided by Users","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":571,"title":"Block Logging to Central Repository","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":572,"title":"Artificially Inflate File Sizes","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":573,"title":"Process Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":574,"title":"Services Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":575,"title":"Account Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":576,"title":"Group Permission Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":577,"title":"Owner Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":578,"title":"Disable Security Software","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":579,"title":"Replace Winlogon Helper DLL","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":580,"title":"System Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":581,"title":"Security Software Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":582,"title":"Route Disabling","domainsOfAttack":"Software, Hardware, Communications, Social Engineering","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":583,"title":"Disabling Network Hardware","domainsOfAttack":"Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":584,"title":"BGP Route Disabling","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":585,"title":"DNS Domain Seizure","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":586,"title":"Object Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":587,"title":"Cross Frame Scripting (XFS)","domainsOfAttack":"Software, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":588,"title":"DOM-Based XSS","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":589,"title":"DNS Blocking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":590,"title":"IP Address Blocking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":591,"title":"Reflected XSS","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":592,"title":"Stored XSS","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":593,"title":"Session Hijacking","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":594,"title":"Traffic Injection","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":595,"title":"Connection Reset","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":596,"title":"TCP RST Injection","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":597,"title":"Absolute Path Traversal","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate Data Structures"}
+{"id":598,"title":"DNS Spoofing","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":599,"title":"Terrestrial Jamming","domainsOfAttack":"Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":600,"title":"Credential Stuffing","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":601,"title":"Jamming","domainsOfAttack":"Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":603,"title":"Blockage","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":604,"title":"Wi-Fi Jamming","domainsOfAttack":"Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":605,"title":"Cellular Jamming","domainsOfAttack":"Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":606,"title":"Weakening of Cellular Encryption","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":607,"title":"Obstruction","domainsOfAttack":"Software, Hardware, Communications, Social Engineering, Physical Security","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":608,"title":"Cryptanalysis of Cellular Encryption","domainsOfAttack":"Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":609,"title":"Cellular Traffic Intercept","domainsOfAttack":"Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":610,"title":"Cellular Data Injection","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":611,"title":"BitSquatting","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":612,"title":"WiFi MAC Address Tracking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":613,"title":"WiFi SSID Tracking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":614,"title":"Rooting SIM Cards","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":615,"title":"Evil Twin Wi-Fi Attack","domainsOfAttack":"Software, Hardware, Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":616,"title":"Establish Rogue Location","domainsOfAttack":"Software, Hardware, Communications, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":617,"title":"Cellular Rogue Base Station","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":618,"title":"Cellular Broadcast Message Request","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":619,"title":"Signal Strength Tracking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":620,"title":"Drop Encryption Level","domainsOfAttack":"Software","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":621,"title":"Analysis of Packet Timing and Sizes","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":622,"title":"Electromagnetic Side-Channel Attack","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":623,"title":"Compromising Emanations Attack","domainsOfAttack":"Software, Hardware, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":624,"title":"Hardware Fault Injection","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":625,"title":"Mobile Device Fault Injection","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":626,"title":"Smudge Attack","domainsOfAttack":"Physical Security","mechanismsOfAttack":"Subvert Access Control"}
+{"id":627,"title":"Counterfeit GPS Signals","domainsOfAttack":"Hardware, Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":628,"title":"Carry-Off GPS Attack","domainsOfAttack":"Communications","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":630,"title":"TypoSquatting","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":631,"title":"SoundSquatting","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":632,"title":"Homograph Attack via Homoglyphs","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":633,"title":"Token Impersonation","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":634,"title":"Probe Audio and Video Peripherals","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":635,"title":"Alternative Execution Due to Deceptive Filenames","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":636,"title":"Hiding Malicious Data or Code within Files","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":637,"title":"Collect Data from Clipboard","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":638,"title":"Altered Component Firmware","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":639,"title":"Probe System Files","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":640,"title":"Inclusion of Code in Existing Process","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":641,"title":"DLL Side-Loading","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":642,"title":"Replace Binaries","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":643,"title":"Identify Shared Files/Directories on System","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":644,"title":"Use of Captured Hashes (Pass The Hash)","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":645,"title":"Use of Captured Tickets (Pass The Ticket)","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":646,"title":"Peripheral Footprinting","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":647,"title":"Collect Data from Registries","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":648,"title":"Collect Data from Screen Capture","domainsOfAttack":"Software","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":649,"title":"Adding a Space to a File Extension","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":650,"title":"Upload a Web Shell to a Web Server","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":651,"title":"Eavesdropping","domainsOfAttack":"Software, Communications, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":652,"title":"Use of Known Kerberos Credentials","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":653,"title":"Use of Known Operating System Credentials","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":654,"title":"Credential Prompt Impersonation","domainsOfAttack":"Software","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":655,"title":"Avoid Security Tool Identification by Adding Data","domainsOfAttack":"Software","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":656,"title":"Voice Phishing","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":657,"title":"Malicious Automated Software Update via Spoofing","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":660,"title":"Root/Jailbreak Detection Evasion via Hooking","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":661,"title":"Root/Jailbreak Detection Evasion via Debugging","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":662,"title":"Adversary in the Browser (AiTB)","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":663,"title":"Exploitation of Transient Instruction Execution","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources, Manipulate Timing and State","supplyChainRisks":"Sustainment"}
+{"id":664,"title":"Server Side Request Forgery","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":665,"title":"Exploitation of Thunderbolt Protection Flaws","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":666,"title":"BlueSmacking","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":667,"title":"Bluetooth Impersonation AttackS (BIAS)","domainsOfAttack":"Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":668,"title":"Key Negotiation of Bluetooth Attack (KNOB)","domainsOfAttack":"Software","mechanismsOfAttack":"Subvert Access Control"}
+{"id":669,"title":"Alteration of a Software Update","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":670,"title":"Software Development Tools Maliciously Altered","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":671,"title":"Requirements for ASIC Functionality Maliciously Altered","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":672,"title":"Malicious Code Implanted During Chip Programming","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production"}
+{"id":673,"title":"Developer Signing Maliciously Altered Software","domainsOfAttack":"Software, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":674,"title":"Design for FPGA Maliciously Altered","domainsOfAttack":"Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Design"}
+{"id":675,"title":"Retrieve Data from Decommissioned Devices","domainsOfAttack":"Software, Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Collect and Analyze Information","supplyChainRisks":"Disposal"}
+{"id":676,"title":"NoSQL Injection","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":677,"title":"Server Motherboard Compromise","domainsOfAttack":"Hardware, Supply Chain, Physical Security","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Sustainment"}
+{"id":678,"title":"System Build Data Maliciously Altered","domainsOfAttack":"Software, Hardware, Supply Chain","mechanismsOfAttack":"Manipulate System Resources","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":679,"title":"Exploitation of Improperly Configured or Implemented Memory Protections","domainsOfAttack":"Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":680,"title":"Exploitation of Improperly Controlled Registers","domainsOfAttack":"Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":681,"title":"Exploitation of Improperly Controlled Hardware Security Identifiers","domainsOfAttack":"Hardware","mechanismsOfAttack":"Subvert Access Control"}
+{"id":682,"title":"Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Abuse Existing Functionality"}
+{"id":690,"title":"Metadata Spoofing","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":691,"title":"Spoof Open-Source Software Metadata","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":692,"title":"Spoof Version Control System Commit Metadata","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":693,"title":"StarJacking","domainsOfAttack":"Software, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions","supplyChainRisks":"Development and Production, Sustainment"}
+{"id":694,"title":"System Location Discovery","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":695,"title":"Repo Jacking","domainsOfAttack":"Software, Hardware, Communications, Supply Chain, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":696,"title":"Load Value Injection","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Manipulate System Resources, Manipulate Timing and State","supplyChainRisks":"Sustainment"}
+{"id":697,"title":"DHCP Spoofing","domainsOfAttack":"Software, Hardware, Social Engineering","mechanismsOfAttack":"Engage in Deceptive Interactions"}
+{"id":698,"title":"Install Malicious Extension","domainsOfAttack":"Software","mechanismsOfAttack":"Inject Unexpected Items"}
+{"id":699,"title":"Eavesdropping on a Monitor","domainsOfAttack":"Software, Communications, Physical Security","mechanismsOfAttack":"Collect and Analyze Information"}
+{"id":700,"title":"Network Boundary Bridging","domainsOfAttack":"Software, Hardware, Communications","mechanismsOfAttack":"Manipulate System Resources"}
+{"id":701,"title":"Browser in the Middle (BiTM)","domainsOfAttack":"Software, Communications","mechanismsOfAttack":"Subvert Access Control"}
+{"id":702,"title":"Exploiting Incorrect Chaining or Granularity of Hardware Debug Components","domainsOfAttack":"Software, Hardware","mechanismsOfAttack":"Subvert Access Control"}
