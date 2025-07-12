@@ -4,7 +4,7 @@ import { Capec, ClassifierContract, Cve, Cwe } from '../src/types.js'
 
 declare module '@adonisjs/core/types' {
   export interface ContainerBindings {
-    'tianjos.csc': ClassifierManager<{
+    'tianjos.classifier': ClassifierManager<{
       capec: ClassifierContract<Capec>
       cwe: ClassifierContract<Cwe>
       cve: ClassifierContract<Cve>
@@ -16,6 +16,6 @@ export default class ClassifierProvider {
   constructor(protected app: ApplicationService) { }
 
   register() {
-    this.app.container.alias('tianjos.csc', ClassifierManager)
+    this.app.container.alias('tianjos.classifier', ClassifierManager)
   }
 }
