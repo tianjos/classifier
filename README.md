@@ -1,4 +1,4 @@
-# Experimental package
+# Experimental package (not published yet)
 
 > Classifiers: cwe, cve and capec
 
