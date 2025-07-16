@@ -9,7 +9,7 @@ let classifier: ClassifierManager<{
 }>
 
 await app.booted(async () => {
-  classifier = await app.container.make('tianjos.csc')
+  classifier = await app.container.make('tianjos.classifier')
 })
 
 export { classifier as default }
